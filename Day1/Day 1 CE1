@@ -5,13 +5,13 @@ function alertMsg()
   alert("Message from JavaScript Alert");
   console.log("Message to developer");
 }
-function APP()
-{
+const App =  ()=>{
+
   return(
     <div className="App">
       <h1>Let we see the output of JAVASCRIPT</h1>
-      <button onclick={alertMsg()}>CE1</button>
+      <button onClick={alertMsg}>CE1</button>
     </div>
-  )
-}
-export default APP;
+  );
+};
+export default App;
